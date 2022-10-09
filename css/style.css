@@ -1,0 +1,538 @@
+/* ======== Common CSS ======== */
+
+body {
+    overflow-x: hidden;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+}
+.sect-heading {
+    text-align: center;
+}
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #464646;
+    padding: 5px 55px 5px 55px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.image {
+    height: auto;
+    width: 100%;
+}
+.logo {
+    margin-bottom: 22px;
+}
+
+/* ===== Button CSS ====== */
+.blck-btn {
+    background-color: #464646;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.yellow-btn {
+    background-color: #ffc038;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 3px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* ===== Header CSS ====== */
+.header-area {
+    background-color: #ffc038;
+    padding: 50px 0px 20px 0px;
+}
+div.navbar-collapse {
+    justify-content: flex-end;
+}
+a.nav-link {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===== Home CSS ====== */ 
+.home-area {
+    background-color:#ffc038 ;
+    padding: 20px 0px 20px 0px;
+}
+.slider-pad {
+    padding-top: 60px;
+}
+.home-text-area h1 {
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.home-text-area p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 34px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 7.25 !important;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 12.75 !important;
+    color: #f9f7f7 !important;
+}
+.home-arrow{
+    left: 100%;
+    top: 50%;
+    transform: translate(90%, 85%);
+}
+
+/* ===== Working CSS ====== */
+.work-area {
+    padding: 100px 0px 80px 0px;
+}
+.outer-pad {
+    padding-top: 9rem;
+    padding-bottom: 1rem;
+}
+.outer-pad h5 {
+    font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+}
+.arrow-1{
+    left: 100%;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+/* ===== Working Image CSS ====== */
+.work-img-area {
+    background-color: #fcfcfc;
+    padding: 60px 0px 60px 0px;
+}
+.work-img-outer {
+    padding-top: 7rem;
+}
+.arrow-2{
+    left: 100%;
+    top: 50%;
+    transform: translate(3%, 50%);
+}
+
+/* ===== Features CSS ====== */
+.feature-area {
+    padding: 6rem 0rem 6rem 0rem ;
+}
+.feature-card-main {
+    display: flex;
+    margin-top: 7rem;
+}
+.feature-card-main .feature-card-text {
+    padding-left: 15px;
+}
+.feature-card-text
+.card-title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.feature-card-text
+.card-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.hov-effect :hover {
+    background-color: #ffc038;
+}
+/* ===== Packages CSS ====== */
+.packages-area{
+    margin-top: 5rem;
+    margin-bottom:7rem ;
+}
+.cards{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    border-color:#ffc038;
+}
+.list-group-flush>.list-group-item:last-child {
+    border-bottom-width: 1px;
+}
+.list-group-item h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.list-group-item h5:hover{
+    color: black;
+}
+.box-pkg:hover {
+    transform: scale(1.1);
+}
+.basic{
+    border-right: 1px solid #ffc038 ;
+    
+}
+.card-body1 h5,.card-body2 h5,.card-body3 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #8d8d8d;
+}
+.card-body1 h5,.card-text1{
+    color: #8d8d8d;
+}
+.card-body2 h5,.card-text2{
+    color: #f26c4f;
+}
+.card-body3 h5,.card-text3{
+    color: #fbc73a;
+}
+.card-text1,.card-text2,.card-text3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.dollar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.arrow-2{
+    left: 100%;
+    top: 50%;
+    transform: translate(3%, 50%);
+}
+.pkg1-btn,.pkg2-btn,.pkg3-btn{
+    border: none;
+    padding: 9px 34px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pkg1-btn{
+    background-color: #a5a5a5;
+}
+.pkg2-btn{
+    background-color: #f26c4f;;
+}
+.pkg3-btn{
+    background-color: #fbc73a;
+}
+/* ===== History CSS ====== */
+.history-area {
+    padding: 50px 0px 50px 0px;
+    background-color: #efeeee;
+}
+.history-para {
+    line-height: 24px;
+}
+
+/* ===== Projects CSS ====== */
+.projects-area {
+    padding: 80px 0px 80px 0px;
+}
+.projects-box {
+    background-color: #efeeee;
+    margin-top: 90px;
+    padding: 60px 40px 60px 40px;
+}
+.prjcts-title {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* ===== Team Members CSS ====== */
+.team-member-area
+.members-part {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding-top: 45px;
+    padding-bottom: 14px;
+    background-color: #ffc038;
+}
+.members-outer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.members-outer 
+.member {
+    text-align: center;
+}
+
+/* ===== SUPPORT CSS ==== */
+.support-area {
+    padding-bottom: 7rem;
+}
+.support-text, .support-img {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.hire-us-bg {
+    height: auto;
+    width: 100%;
+}
+.hire-area {
+    background-color: #fbc73a;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hire-area
+.hire-left
+.hire-text {
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 55px;
+}
+.hire-area
+.hire-right
+.hire-btn {
+    background-color: #fff;
+    color: #3a3a3a;
+    padding: 8px 30px ;
+    border: none;
+    margin-right: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* ===== Footer CSS ===== */
+.footer-area {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #363636;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+    color: #aab2bd;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.content-head {
+    color: #e6e9ed;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.social-media-icons {
+    margin-top: 3rem;
+}
+.icon-box {
+    background-color: #ffc038;
+    color: white;
+    font-size: 20px;
+    padding: 10px 12px;
+    width: 45px;
+    border-radius: 3px;
+    margin: 1px;
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+}
+.copyright
+.copyright-text {
+    color: #aab2bd;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* ===== Responsivness ===== */
+@media (max-width: 991px) {
+    .home-arrow {
+        display: none;
+    }
+    .cards {
+        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .work-area {
+        padding: 60px 0px 60px 0px;
+    }
+    .outer-pad {
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+    .packages-area {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .team-member-area .members-part {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding-top: 45px;
+        padding-bottom: 14px;
+        background-color: #ffc038;
+    }
+    .support-text, .support-img {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .feature-area {
+        padding: 3rem 0rem 2rem 0rem;
+    }
+    .feature-card-main {
+        display: flex;
+        margin-top: 5rem;
+    }
+    .hire-area .hire-left .hire-text {
+        margin-bottom: 0px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 19px;
+    }
+}
+@media (max-width: 567px) {
+    .box {
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        background-color: #464646;
+        padding: 5px 45px 5px 45px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+@media (max-width: 380px) {
+    .box {
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        background-color: #464646;
+        padding: 5px 35px 5px 35px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .work-img-area {
+        background-color: #fcfcfc;
+        padding: 15px 0px 15px 0px;
+    }
+    .cards {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hire-area .hire-right .hire-btn {
+        background-color: #fff;
+        color: #3a3a3a;
+        padding: 4px 20px;
+        border: none;
+        margin-right: 32px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 3px;
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    }
+    .hire-area .hire-left .hire-text {
+        margin-bottom: 0px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 19px;
+    }
+    .support-area {
+        padding-bottom: 3rem;
+    }
+    .support-text, .support-img {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 350px) {
+    .home-text-area h1 {
+        font-size: 38px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+    .box {
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        background-color: #464646;
+        padding: 5px 26px 5px 26px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
